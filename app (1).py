@@ -16,7 +16,7 @@ name = "Moyahabo Poeletso Tshipepele"
 field = "Computer Information Systems Graduate"
 institution = "University of the Free State" 
 
-summary = "A dedicated University of the Free State Computer Information Systems graduate with strong foundational 
+summary = """A dedicated University of the Free State Computer Information Systems graduate with strong foundational 
 skills in SQL development, C# programming, database management, and systems analysis. I have practical 
 experience working in Linux environments through my High-Performance Computing module, where I 
 gained hands-on exposure to system configuration and technical problem-solving. My degree integrates IT 
@@ -24,7 +24,7 @@ and business, enabling me to analyse systems, support digital operations, and un
 processes. I also contributed to the UFS Career Bridge project by documenting system features, testing 
 functionalities, and supporting digital platform development. I am eager to apply my analytical and 
 technical skills in dynamic, technology-driven environments while contributing to innovative digital 
-solutions and continuous improvement" 
+solutions and continuous improvement"""
 
 
 # Display basic profile information
@@ -49,4 +49,5 @@ email = "poeletsomoyahabo@gmail.com"
 
 
 st.write(f"You can reach {name} at {email} ")
+
 
