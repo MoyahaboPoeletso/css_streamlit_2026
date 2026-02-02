@@ -9,18 +9,27 @@ import pandas as pd
 import numpy as np
 
 # Title of the app
-st.title("Moyahabo Poeletso's Profile")
+st.title("Moyahabo Poeletso Tshipepele")
 
 # Collect basic information
 name = "Moyahabo Poeletso Tshipepele"
 field = "Computer Information Systems Graduate"
-institution = "University of the Free State"
+institution = "University of the Free State" 
+summary = "A dedicated University of the Free State Computer Information Systems graduate with strong foundational 
+skills in SQL development, C# programming, database management, and systems analysis. I have practical 
+experience working in Linux environments through my High-Performance Computing module, where I 
+gained hands-on exposure to system configuration and technical problem-solving. My degree integrates IT 
+and business, enabling me to analyse systems, support digital operations, and understand organisational 
+processes. I also contributed to the UFS Career Bridge project by documenting system features, testing 
+functionalities, and supporting digital platform development. I am eager to apply my analytical and 
+technical skills in dynamic, technology-driven environments while contributing to innovative digital 
+solutions and continuous improvement" 
 
 
 # Display basic profile information
 st.header(" PROFESSIONAL SUMMARY")
-st.write("")
-st.write(f"**Field of Research:** {field}")
+st.write("f" {summary}")
+st.write("Computer Information Systems")
 st.write(f"**Institution:** {institution}")
 
 st.image(
@@ -34,6 +43,8 @@ st.image(
 
 # Add a contact section
 st.header("Contact Information")
-email = "poeletso@gmail.com"
+email = "poeletsomoyahabo@gmail.com"
+cellphoneNumber = 0659882132
 
-st.write(f"You can reach {name} at {email}.")
+
+st.write(f"You can reach {name} at {email} /" + cellphoneNumber )
