@@ -29,7 +29,7 @@ solutions and continuous improvement"""
 
 # Display basic profile information
 st.header(" PROFESSIONAL SUMMARY")
-st.write("f" {summary}")
+st.write(f" {summary}")
 st.write("Computer Information Systems")
 st.write(f"**Institution:** {institution}")
 
@@ -49,5 +49,6 @@ email = "poeletsomoyahabo@gmail.com"
 
 
 st.write(f"You can reach {name} at {email} ")
+
 
 
