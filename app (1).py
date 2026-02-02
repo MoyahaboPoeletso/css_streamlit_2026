@@ -15,6 +15,7 @@ st.title("Moyahabo Poeletso Tshipepele")
 name = "Moyahabo Poeletso Tshipepele"
 field = "Computer Information Systems Graduate"
 institution = "University of the Free State" 
+
 summary = "A dedicated University of the Free State Computer Information Systems graduate with strong foundational 
 skills in SQL development, C# programming, database management, and systems analysis. I have practical 
 experience working in Linux environments through my High-Performance Computing module, where I 
@@ -44,7 +45,8 @@ st.image(
 # Add a contact section
 st.header("Contact Information")
 email = "poeletsomoyahabo@gmail.com"
-cellphoneNumber = 0659882132
 
 
-st.write(f"You can reach {name} at {email} /" + cellphoneNumber )
+
+st.write(f"You can reach {name} at {email} ")
+
