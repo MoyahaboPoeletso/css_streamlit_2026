@@ -32,9 +32,10 @@ functionalities, and supporting digital platform development. I am eager to appl
 technical skills in dynamic, technology-driven environments while contributing to innovative digital 
 solutions and continuous improvement"""
 
-st.write(f" {summary}")
+
 st.write("Computer Information Systems")
-st.write(f"**Institution:** {institution}")
+st.write(f"**Institution:** {institution}") 
+st.write(f" {summary}")
 
 st.image(
     "1c6e2295-1e6f-4942-8010-a414c3ae46e3.jpg",
@@ -52,6 +53,7 @@ email = "poeletsomoyahabo@gmail.com"
 
 
 st.write(f"You can reach {name} at {email} ")
+
 
 
 
