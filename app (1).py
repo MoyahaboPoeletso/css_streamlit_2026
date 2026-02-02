@@ -16,6 +16,12 @@ name = "Moyahabo Poeletso Tshipepele"
 field = "Computer Information Systems Graduate"
 institution = "University of the Free State" 
 
+
+
+
+# Display basic profile information
+st.header(" PROFESSIONAL SUMMARY")
+
 summary = """A dedicated University of the Free State Computer Information Systems graduate with strong foundational 
 skills in SQL development, C# programming, database management, and systems analysis. I have practical 
 experience working in Linux environments through my High-Performance Computing module, where I 
@@ -26,9 +32,6 @@ functionalities, and supporting digital platform development. I am eager to appl
 technical skills in dynamic, technology-driven environments while contributing to innovative digital 
 solutions and continuous improvement"""
 
-
-# Display basic profile information
-st.header(" PROFESSIONAL SUMMARY")
 st.write(f" {summary}")
 st.write("Computer Information Systems")
 st.write(f"**Institution:** {institution}")
@@ -49,6 +52,7 @@ email = "poeletsomoyahabo@gmail.com"
 
 
 st.write(f"You can reach {name} at {email} ")
+
 
 
 
